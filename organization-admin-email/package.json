@@ -1,0 +1,13 @@
+{
+  "name": "organization-admin-email",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WordPress plugin that routes organization-facing admin notifications to a dedicated Organization Admin Email.",
+  "scripts": {
+    "build:css": "sass src/scss/admin.scss assets/admin/css/admin.css --style=expanded --no-source-map",
+    "watch:css": "sass --watch src/scss/admin.scss assets/admin/css/admin.css --style=expanded --no-source-map"
+  },
+  "devDependencies": {
+    "sass": "^1.77.0"
+  }
+}
